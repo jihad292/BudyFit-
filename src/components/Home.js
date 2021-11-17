@@ -36,7 +36,7 @@ export const Home = ({user})=>{
                 <div className='contactUsDiv'>  
                 <a  href='https://www.instagram.com/fit14gym/?utm_medium' target="_blank"><p><FaInstagram /></p></a>
                 <p><FaEnvelope /> karen.fh00@gmail.com</p>
-                <p><FaPhone /> Coach Wissam Hajj Hssein +96171977921</p>
+                <p><FaPhone /> Coach Wissam Hajj Hssein +96171977921TestTest</p>
                 <p><FaPhone /> Manager Karen Farah +96171813343</p>
                 </div>
             </div> 
