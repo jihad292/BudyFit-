@@ -1,14 +1,20 @@
 .homeScreenMain {
-    background: url(../images/Capture.PNG) ;
+    background: url(../images/wissamImg.jpg) ;
   background-size: cover;
+  height: auto;
+  
 }
 .mainDiv{
-    height:100vh;
+    height:110vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
 }
 
 .mainDiv h2{
-    color:rgb(224, 39, 39);
+    color:rgb(231, 216, 216);
     font-style: italic;
     font-size: 45px;
 }
@@ -16,16 +22,49 @@
 .contactUsDiv{
     display:flex;
     flex-direction: column;
-    padding:15px;
-}
+    background-color: rgb(0, 14, 12);
+    height:auto;
+    margin:0;
+    
+} 
  .contactUsDiv p{
-    color:rgb(0, 17, 250);
-    font-size: 60px;
+    color:darkred;
+    font-size: 40px;
+    padding-top: 0%;
+     margin: 0;
+     padding:0%; 
+}
+
+#p1-contactUs{
+    color:darkred;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.contactUsDiv .links-contactUs{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.contactUsDiv .links-contactUs p{
+    color:darkred;
+    padding:5px;
+    position: relative;
+    bottom:15px;
 }
 
 @media(max-width: 768px) {
     .contactUsDiv p{
-        color:rgb(0, 17, 250);
+        color:darkred;
         font-size: 30px;
+    }  
+
+    .homeScreenMain {
+        background: url(../images/wissamImgReduced.jpg) ;
+      background-size: cover;
+      height: auto;
+      
     }
 } 

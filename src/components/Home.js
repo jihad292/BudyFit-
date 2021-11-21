@@ -32,14 +32,18 @@ export const Home = ({user})=>{
             <Navbar user={user} />
             </div>
             <div className='mainDiv'>
-                <h2>Pain is temporary, pride is forever...</h2>
-                <div className='contactUsDiv'>  
-                <a  href='https://www.instagram.com/fit14gym/?utm_medium' target="_blank"><p><FaInstagram /></p></a>
-                <p><FaEnvelope /> karen.fh00@gmail.com</p>
-                <p><FaPhone /> Coach Wissam Hajj Hssein +96171977921TestTest</p>
-                <p><FaPhone /> Manager Karen Farah +96171813343</p>
-                </div>
+                <h2>Pain is temporary,</h2>
+                <h2>pride is forever💪🏽</h2>
             </div> 
+            <div className='contactUsDiv'>  
+                <p id="text" id="p1-contactUs">Contacts :</p>
+                <p id="padding-removal">Coach Wissam </p>
+                <p>Manager Karen</p>
+                <div className="links-contactUs">
+                    <a  href='https://www.instagram.com/fit14gym/?utm_medium' target="_blank"><p><FaInstagram /></p></a>
+                     <p ><FaEnvelope /> karen.fh00@gmail.com</p>
+                </div>
+                </div>
         </div>
         
     );
